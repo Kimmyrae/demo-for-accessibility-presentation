@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+    <script src="https://dvs8843vcxivu.cloudfront.net//common/scripts/GSS.removeNoJs.min.js?v=316"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="cleartype" content="on">
+    <title>GCP Prototype User Management View Add User</title>
+    <link href="./dist/css/gss.min.css?bt=ja8bncaa" rel="stylesheet">
+    <link href="./dist/css/gss-component.min.css?bt=ja8bncaa" rel="stylesheet">
+    
+        <link href="./dist/css/GSS.widget.userManagement.min.css?bt=ja8bncaa" rel="stylesheet">
+    
+    <script src="./dist/js/jquery.js?bt=ja8bncaa"></script>
+    <script src="./dist/js/bootstrap.js?bt=ja8bncaa"></script>
+    <script src="./dist/js/gel-bootstrap-navbar.js?bt=ja8bncaa"></script>
+    <script src="./dist/js/bootstrap-select.js?bt=ja8bncaa"></script>
+</head>
+    <body lang=""  class="gss gss-theme-app-1">
+        <div id="wrap">
+            
+                <header role="banner" class="header-page">
+    <nav class="navbar navbar-default" data-gss-clientid="ltVoWNTAsju1wvBbqKgD6YeIoTEqTTREAZwVeJK2YmY_3D">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/_Home/Index?gssClientId=ltVoWNTAsju1wvBbqKgD6YeIoTEqTTREAZwVeJK2YmY_3D">
+                    <span class="gel-icon-gallup"></span><span class="sr-only">Gallup</span>
+                    <span class="navbar-environment" data-environment="dev">Prototype</span>
+                </a>
+            </div>
+
+            <ul class="nav navbar-nav">
+                <li class="gel-nav-columns dropdown">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle dropdown-toggle-caret" aria-expanded="false">Menu</a>
+                    <ul class="dropdown-menu">
+
+                        <li class="nav-title">
+                            <a href="../_Portal/ApplicationAsync?gssClientId=ltVoWNTAsju1wvBbqKgD6YeIoTEqTTREAZwVeJK2YmY_3D&amp;dashboardWidgetId=Q4GFCMNrVWlHrW1ypYUVfn9UJf1VQ1P4nR_2FzkvMxaO2qnY7K_2Bl1vDXhuKXLgV5m9&amp;eCode=WORKPLACE">My Data</a>
+                            <ul>
+
+                                <li><a href="../_Portal/ApplicationAsync?gssClientId=ltVoWNTAsju1wvBbqKgD6YeIoTEqTTREAZwVeJK2YmY_3D&amp;dashboardWidgetId=Q4GFCMNrVWlHrW1ypYUVfn9UJf1VQ1P4nR_2FzkvMxaO2qnY7K_2Bl1vDXhuKXLgV5m9&amp;eCode=WORKPLACE">Summary</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-title">
+                            <a href="../_Portal/ApplicationAsync?gssClientId=ltVoWNTAsju1wvBbqKgD6YeIoTEqTTREAZwVeJK2YmY_3D&amp;dashboardWidgetId=Q4GFCMNrVWlHrW1ypYUVfivrFAF0_2FBGvE0Ruc28L_2FmVPpYzoarg5n9Nhqf0kRZ2z&amp;eCode=ACTION">Action</a>
+                            <ul>
+
+                                <li><a href="../_Portal/ApplicationAsync?gssClientId=ltVoWNTAsju1wvBbqKgD6YeIoTEqTTREAZwVeJK2YmY_3D&amp;dashboardWidgetId=Q4GFCMNrVWlHrW1ypYUVfivrFAF0_2FBGvE0Ruc28L_2FmVPpYzoarg5n9Nhqf0kRZ2z&amp;eCode=ACTION#/summary">Summary</a></li>
+
+                                <li><a href="../_Portal/ApplicationAsync?gssClientId=ltVoWNTAsju1wvBbqKgD6YeIoTEqTTREAZwVeJK2YmY_3D&amp;dashboardWidgetId=Q4GFCMNrVWlHrW1ypYUVfivrFAF0_2FBGvE0Ruc28L_2FmVPpYzoarg5n9Nhqf0kRZ2z&amp;eCode=ACTION#/plans/view">My Action Plans</a></li>
+
+                                <li><a href="#">Team Monitoring</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-title">
+                            <a href="#">Learn</a>
+                            <ul>
+
+                                <li><a href="#">Tools</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-title">
+                            <a href="#">Strengths</a>
+                            <ul>
+
+                                <li><a href="#">Summary</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-title">
+                            <a href="#">Survey</a>
+                            <ul>
+
+                                <li><a href="#">Summary</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a class="btn btn-primary-ghost" href="#">Shop</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown dropdown-icon">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="gel-icon-user-profile"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-header">
+                            <text>ianr</text>
+                        </li>
+
+                        <li class="divider"></li>
+
+                        <li>
+                            <a href="/_Portal/DashboardAsync?dashboardId=Q4GFCMNrVWlHrW1ypYUVfs3nqt_2FyuyLZLDfP7gc0XJo_3D&amp;gssClientId=ltVoWNTAsju1wvBbqKgD6YeIoTEqTTREAZwVeJK2YmY_3D">Admin Tools</a>
+                        </li>
+                        <li>
+                            <form action="/_Account/Logout" class="" id="form0" method="post"><input name="__RequestVerificationToken" type="hidden" value="JgBVSLWbEgfleqnB3v8kuSHcY2nf5EIgQ-3cNtnGe6CNSktnm23iSg593xF-vwsvew4JiDtc8_svMrfQ2iP_lFK1M_eqKWa7ZJxWaxM4jF816cvsnAi7P08RqLa5wD80ifZdCQ2">                                <input class="btn btn-link" type="submit" value="Sign Out">
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown dropdown-icon">
+                    <a href="./gss-4898-system-settings-index.html"
+                        class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="gel-icon-gear"></span><span class="sr-only">User Management</span></a>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown dropdown-icon">
+                    <a href="./gss-4898-system-settings-index.html" class="dropdown-toggle"><span class="gel-icon-cart"></span><span class="sr-only">Your Cart</span><span class="dropdown-icon-notification">2</span></a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown dropdown-language">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="gel-icon-language"></span>English (USA)</a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <span class="nav-title">Select Language</span>
+                            <ul class="nav-ul-3">
+
+                                <li gss-data-language-selection-dropdown="en-US">
+                                    <a href="#" onclick="return false;">English (USA)</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="en-GB">
+                                    <a href="#" onclick="return false;">English (Great Britain)</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="es-ES">
+                                    <a href="#" onclick="return false;">Español europeo</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="es-AR">
+                                    <a href="#" onclick="return false;">Español latinoamericano</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="de-DE">
+                                    <a href="#" onclick="return false;">Deutsch</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="zh-CN">
+                                    <a href="#" onclick="return false;">简体中文</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="zh-TW">
+                                    <a href="#" onclick="return false;">臺灣繁體中文</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="ja-JP">
+                                    <a href="#" onclick="return false;">日本語</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="ko-KR">
+                                    <a href="#" onclick="return false;">한국어</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="th-TH">
+                                    <a href="#" onclick="return false;">ไทย</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="id-ID">
+                                    <a href="#" onclick="return false;">Bahasa Indonesia</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="fr-FR">
+                                    <a href="#" onclick="return false;">Français</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="fr-CA">
+                                    <a href="#" onclick="return false;">Français canadien</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="it-IT">
+                                    <a href="#" onclick="return false;">Italiano</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="nl-NL">
+                                    <a href="#" onclick="return false;">Nederlands</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="pt-BR">
+                                    <a href="#" onclick="return false;">Português (Brasil)</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="ru-RU">
+                                    <a href="#" onclick="return false;">Русский</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="bg-BG">
+                                    <a href="#" onclick="return false;">Български</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="hi-IN">
+                                    <a href="#" onclick="return false;">हिंदी</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="hr-HR">
+                                    <a href="#" onclick="return false;">Hrvatski</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="hu-HU">
+                                    <a href="#" onclick="return false;">Magyar</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="pl-PL">
+                                    <a href="#" onclick="return false;">Polski</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="ro-RO">
+                                    <a href="#" onclick="return false;">Română</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="sv-SE">
+                                    <a href="#" onclick="return false;">Svenska</a>
+                                </li>
+
+
+                                <li gss-data-language-selection-dropdown="tr-TR">
+                                    <a href="#" onclick="return false;">Türkçe</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="clientbar clearfix">
+        <div class="pull-left">
+            <div class="pull-left">
+                <span class="client-logo">G</span>
+            </div>
+            <div class="pull-left">
+                <div class="client-title">Client Selection</div>
+                <div class="client-name">Gallup</div>
+            </div>
+        </div>
+        <div class="clientbar-selectmenu pull-right">
+
+            <div class="dropdown dropdown-menu-right ">
+                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <span class="visible-xs-inline gel-icon-user-group-solid"> </span><span class="hidden-xs">Manage Client Selection</span>
+                    <span class="gel-icon-arrow-down gel-icon-after"></span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right">
+
+                    <li class="nav-li-2">
+                        <a href="javascript:GSS.portal.changeClient('event', 'ltVoWNTAsju1wvBbqKgD6d6TPCZlv_2FcwSPrFN1IWtjo_3D');">Champion Show Sales</a>
+                    </li>
+
+
+                    <li class="nav-li-2">
+                        <a href="javascript:GSS.portal.changeClient('event', 'ltVoWNTAsju1wvBbqKgD6ZCJKbLqreqy8HvQPAuC3oI_3D');">GSS Demo Client</a>
+                    </li>
+
+
+                    <li class="nav-li-2">
+                        <a href="javascript:GSS.portal.changeClient('event', 'ltVoWNTAsju1wvBbqKgD6aqlsyUxDHj4fOW8yqPigOI_3D');">Micah's Badger Sanctuary</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+</header>
+
+            
+            <main class="gel-content" role="main">
+                
+<div class="container-fluid">
+    
+    <div>
+        <div data-gss-name="divMessageContainer" class="gss_portal_message_container_div">
+            <div class="validation-summary-error"></div>
+            <div class="validation-summary-info"></div>
+            <div class="validation-summary-warning"></div>
+        </div>
+    </div>
+
+    <div class="gss_widget_app_container_div widget_status_available" data-gss-name="divWidget" data-dashboard-widget-id="Q4GFCMNrVWlHrW1ypYUVfrKTdKWoIy43AXP0l4_2BqVHUSWb90Eme7yu44IHp9xZP_2F" data-gss-widget-status="available">
+        
+        <div class="gss_widget_app_title_div row admin users"></div>
+        
+        <div data-gss-name="divWidgetContent" class="gss_widget_app_body_div">
+            
+<div class="portalapp">
+    <div class="row">
+        <div class="app-header-nav app-header-subnav">
+        </div>
+        <div class="app-header">
+            <div class="app-header-row container-app clearfix">
+                <div class="app-header-item pull-left">
+                    <h2 class="serif">
+                        Manage Gallup Associates
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Section -->
+    <div>
+        <div>
+            <div class="container-app">
+                <!-- Section -->
+                <div class="c-app-panel c-app-panel--accent-top is-active">                   
+                    <div class="c-app-panel__header">
+                        <div>
+                            <div class="row">
+                                <div class="col-md-8">
+                                <span class="h2">Gallup Associate(s)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="c-app-panel__body">
+                            <div class="c-admin-table">
+                                    <div class="c-admin-table__header">
+                                        <div class="c-admin-table__item"></div>
+                                        <div class="c-admin-table__item">↓ Name</div>
+                                        <div class="c-admin-table__item">Email</div>
+                                        <div class="c-admin-table__item has-icon"></div>
+                                    </div>
+                        
+                                     
+                                    <input class="c-admin-table__checkbox-input" id="uniqueId0" type="checkbox" name="checks" value="0">
+                                    <div for="uniqueId0" class="c-admin-table__row c-admin-table">
+                                        <div class="c-admin-table__item">
+                                                        <span class="user-logo">NK </span>
+                                        </div>
+                                        <div class="c-admin-table__item">Kirkman, Nathan</div>
+                                        <div class="c-admin-table__item">nathan_kirkman@gallup.com</div>
+                                        <div class="c-admin-table__item c-admin-table__close">
+                                            <button class="c-admin-table__close-label">
+                                                            <span class="sr-only">Select User</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    
+                                    <input class="c-admin-table__checkbox-input" id="uniqueId1" type="checkbox" name="checks" value="1">
+                                    <div for="uniqueId1" class="c-admin-table__row c-admin-table">
+                                        <div class="c-admin-table__item">
+                                                        <span class="user-logo">NK </span>
+                                        </div>
+                                        <div class="c-admin-table__item">Kirkman, Nathan</div>
+                                        <div class="c-admin-table__item">nathan_kirkman@gallup.com</div>
+                                        <div class="c-admin-table__item c-admin-table__close">
+                                            <button class="c-admin-table__close-label">
+                                                            <span class="sr-only">Select User</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    
+                                    <input class="c-admin-table__checkbox-input" id="uniqueId2" type="checkbox" name="checks" value="2">
+                                    <div for="uniqueId2" class="c-admin-table__row c-admin-table">
+                                        <div class="c-admin-table__item">
+                                                        <span class="user-logo">NK </span>
+                                        </div>
+                                        <div class="c-admin-table__item">Kirkman, Nathan</div>
+                                        <div class="c-admin-table__item">nathan_kirkman@gallup.com</div>
+                                        <div class="c-admin-table__item c-admin-table__close">
+                                            <button class="c-admin-table__close-label">
+                                                            <span class="sr-only">Select User</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <button class="btn btn-primary-ghost"><span class="gel-icon-plus"></span>Add Gallup Associate</button>     
+                                </div>
+                            </div>
+                    </div>                    
+                </div>
+                <!-- / Section -->
+                 <!-- Section -->
+                <div class="c-app-panel c-app-panel--accent-top is-active">                   
+                    <div class="c-app-panel__header">   
+                            <ul class="userlist">
+                                    <li>
+                                        <div>
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                <span class="h2">Assign System Roles</span>
+                                                <span data-info-icon="popover" tabindex="0" data-toggle="tooltip" data-placement="bottom" data-content="Help text goes here!"><span class="gel-icon-info-circle"></span></span>
+                                                <p>Lorem ipsum dolor sit amet, turpis non luctus, eveniet dolor eget purus odio massa. 
+                                                Venenatis facilisis ligula sed commodo. Ligula lorem nullam wisi non morbi. Ligula lorem nullam wisi non morbi. Id ius purto intellegat dissentias, ne est summo audiam. Ad mel placerat vivendum complectitur.</p>
+                                                <p><span class="tag-block"><span class="tag label label-info" data-gss-name="tag">Client User Administrator <span data-info-icon="popover" tabindex="0" data-toggle="tooltip" data-placement="bottom" data-content="Help text goes here!"><span class="gel-icon-info-circle"></span></span>
+                                                </span></span>
+                                                <span class="tag-block"><span class="tag label label-info" data-gss-name="tag">Advanced Data Tool User <span data-info-icon="popover" tabindex="0" data-toggle="tooltip" data-placement="bottom" data-content="Help text goes here!"><span class="gel-icon-info-circle"></span></span>
+                                                </span></span>
+                                                <span class="tag-block"><span class="tag label label-info" data-gss-name="tag">AOL Action User <span data-info-icon="popover" tabindex="0" data-toggle="tooltip" data-placement="bottom" data-content="Help text goes here!"><span class="gel-icon-info-circle"></span></span>
+                                                </span></span>
+                                                <span class="tag-block"><span class="tag label label-info" data-gss-name="tag">Advanced Learn User <span data-info-icon="popover" tabindex="0" data-toggle="tooltip" data-placement="bottom" data-content="Help text goes here!"><span class="gel-icon-info-circle"></span></span>
+                                                </span></span>
+                                                <span class="tag-block"><span class="tag label label-info" data-gss-name="tag">AOL Learn User <span data-info-icon="popover" tabindex="0" data-toggle="tooltip" data-placement="bottom" data-content="Help text goes here!"><span class="gel-icon-info-circle"></span></span>
+                                                </span></span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                        <button class="btn btn-primary-ghost control-label"><span class="gel-icon-plus"></span>Role </button>                           
+                                        </div>
+                                    </li>  
+                                </ul>  
+                    </div>
+                    </div>
+                <!-- / Section -->
+                <!-- Buttons -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary smallcaps pull-left">Add Associate(s)</button>
+                    <button class="btn btn-default smallcaps pull-left">Cancel</button>
+                </div>  
+                <!-- / Buttons -->
+            </div>
+        </div>
+    </div>  
+                
+            </div>
+            <script>
+                    $('[data-info-icon="popover"]').each(function () {
+                        var content = $(this).find('.c-info-icon__content').html();
+                        $(this).popover({
+                            container: 'body',
+                            trigger: 'hover focus',
+                            content: content,
+                            html: true
+                        })
+                    })
+                </script>
+
+        </div>
+        
+        <div data-gss-name="divWidgetFooter" class="gss_widget_app_footer_div"></div>
+    </div>
+
+</div>
+
+            </main>
+            
+            
+        </div>
+        
+        
+    </body>
+</html>
