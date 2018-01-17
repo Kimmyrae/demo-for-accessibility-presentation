@@ -20,33 +20,6 @@
 
   <body>
 
-    <!-- Navigation -->
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Cats</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav> -->
 
     <!-- Page Content -->
     <div class="container">
@@ -127,29 +100,92 @@
       <!-- /.row -->
 
       <!-- Pagination -->
-      <!-- <ul class="pagination justify-content-center">
-        <li class="page-item">
-          <a class="page-link" href="#" aria-label="Previous">
-            <span aria-hidden="true">&laquo;</span>
-            <span class="sr-only">Previous</span>
-          </a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">1</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">2</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">3</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#" aria-label="Next">
-            <span aria-hidden="true">&raquo;</span>
-            <span class="sr-only">Next</span>
-          </a>
-        </li>
-      </ul> -->
+      <section class="no-mini" role="complementary">
+        <h2 id="Try-it">Try it!</h2>
+
+        <p>
+            tota11y can be found in the bottom left corner of this page.
+            Here are some  UI elements to try it on.
+        </p>
+
+        <span class="sr-only">
+            The following UI elements are intentionally inaccessible for
+            demonstration purposes.
+        </span>
+
+        <div class="playground">
+            <!-- links -->
+            <div>
+                Here's an <a href="javascript:void 0">informative link
+                about something</a>. Here's another that simply says
+                <a href="javascript:void 0">click here</a>, which is not
+                helpful to a screen reader.
+            </div>
+
+            <hr>
+
+            <!-- inputs -->
+            <p>
+                Here's an input without an explicit label:
+            </p>
+
+            Username: <input>
+
+            <p>
+                Here's one that tries to get by with a placeholder.
+            </p>
+
+            Email <input id="email-input" placeholder="input@example.com">
+
+            <p>
+                This one looks good.
+            </p>
+
+            <label>
+                Password:
+                <input type="password" placeholder="password">
+            </label>
+
+            <hr>
+
+            <!-- headings -->
+            <h4>This <code>&lt;h4&gt;</code> heading has an invalid level</h4>
+
+            <hr>
+
+            <!-- contrast -->
+            <p>
+                On this background,
+                <span class="light-text">this text</span>
+                is too light.
+            </p>
+
+            <a class="light-button" href="javascript:void 0">A button</a>
+
+            <hr>
+
+            <!-- images -->
+            <p>
+                This image has no alt attribute, and a screen-reader will
+                likely read off its filename.
+            </p>
+
+            <img src="http://content.gallup.com/origin/gallupinc/GallupSpaces/Production/Cms/GSCCOMMONLKM/p9vnn4acfuazlt-oejg14a.png">
+
+            <p>
+                This image has <em>empty</em> alt text, meaning the screen
+                reader will interpret it as decorative.
+            </p>
+
+            <img src="http://content.gallup.com/origin/gallupinc/GallupSpaces/Production/Cms/GSCCOMMONLKM/p9vnn4acfuazlt-oejg14a.png" alt="">
+
+            <p>
+                This image has proper alt text.
+            </p>
+
+            <img src="http://content.gallup.com/origin/gallupinc/GallupSpaces/Production/Cms/GSCCOMMONLKM/p9vnn4acfuazlt-oejg14a.png" alt="Don Clifton">
+        </div>
+    </section>
 
     </div>
     <!-- /.container -->
