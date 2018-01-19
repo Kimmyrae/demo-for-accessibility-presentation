@@ -16,6 +16,10 @@ body {
   }
 }
 
+.container-main {
+  background-color: #ffff00;
+}
+
 .portfolio-item {
   margin-bottom: 30px;
 }
@@ -31,3 +35,10 @@ body {
 .card-body {
     background-color: #009E9E;
 }
+
+.h1 {
+	  font-size: 72px;
+	  background: -webkit-linear-gradient(#eee, #333);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;	
+	}
