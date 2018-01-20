@@ -6,8 +6,6 @@
 
 body {
   padding-top: 54px;
-  background: red; /* For browsers that do not support gradients */
-  background: linear-gradient(red, yellow); /* Standard syntax (must be last) */
 }
 
 @media (min-width: 992px) {
@@ -38,7 +36,4 @@ body {
 
 .h1 {
 	  font-size: 72px;
-	  background: -webkit-linear-gradient(#eee, #333);
-	  -webkit-background-clip: text;
-	  -webkit-text-fill-color: transparent;	
 	}
